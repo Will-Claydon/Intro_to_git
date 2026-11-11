@@ -34,7 +34,7 @@ library(gert)
 library(gh)
 
 # Connect RStudio to your GitHub Account
-use_git_config(user.name = "Jane Doe",
+use_git_config(user.name = "Jane Doe", # GitHub username
                user.email = "your@email.com") # email MUST match git email account 
 
 # Create a personal access token (PAT)
